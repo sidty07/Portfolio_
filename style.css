@@ -1,0 +1,258 @@
+
+body, html {
+    margin: 0;
+    padding: 0;
+    margin: 0;
+    width: 100%;
+   background-color:#EDF2EB
+}
+
+.prob {
+    border: none; /* Removes border */
+    outline: none; /* Removes focus outline */
+    
+   background-color:#14191a;
+   
+   box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.5);
+   border-radius: 10px;
+}
+.prob:hover{
+ transform: scale(1.05);
+     transition: transform 0.2s ease-in;
+     
+}
+/* NAVBAR*/
+.home{
+   
+    text-decoration: none;
+    color:#4A6269;
+    font-size: 20px;
+    
+    
+}
+.home:hover{
+    color: white;
+}
+.left-nav{
+     margin-left: 10%;
+}
+nav{
+    background-color:#14191a;
+    box-shadow: 0px 15px 26px rgba(0, 0, 0, 0.3);
+    border-radius:0px 0px 20px 20px ;
+}
+
+.right-nav{
+    background-color: #1D2426;
+   
+}
+
+.right-navtext{
+    text-decoration: none;
+    color: #4A6269;
+}
+.right-navtext:hover {
+    color: white;}
+
+.navbar-toggler{
+        filter: invert(36%) sepia(30%) saturate(300%) hue-rotate(150deg);
+    margin-right: 10%;
+    border: none;
+    outline: none;
+}
+
+    .navbar-toggler:hover{
+        filter: invert(100%) sepia(30%) saturate(300%) hue-rotate(150deg);
+        border: none;
+        outline: none;
+    }
+    .ullistnav{
+        
+        margin-right:15rem;
+        font-size: 20px;
+        gap: 30%;
+    }
+   
+/*NAVBAR*/
+
+/*INTRO*/
+
+.container-fluid{
+   
+    padding: 0%;
+    
+}
+.introcolor{
+ background-color: #EDF2EB;
+}
+.mainh{
+    
+   font-size: clamp(50px, 5vw, 64px);
+    color: #1D2426;
+    text-align: end;
+    padding-top: 20px;
+}
+.mainh1{
+   font-size: clamp(30px, 3vw, 36px);
+    font-weight: 100;
+    color: #1D2426;
+text-align: end;
+padding-bottom: 20px;
+}
+.img-fluid {
+    width: 100%;
+    height: auto;
+    display: block;
+}
+.row, .col-md-6 {
+    margin: 0;
+    padding: 0;
+}
+
+
+/*INTRO*/
+/*EDUCATION*/
+.edu{
+    background-color: #4A6269;
+    }
+    .edu0{
+        font-size: clamp(40px, 5vw, 64px);
+        color: #EDF2EB;
+        padding-top: 50px ;
+        padding-bottom: 50px;
+        font-weight: bolder;
+        text-align: center;
+        
+    }
+    .edu1{
+        color: #EDF2EB;
+        text-align: center;
+        padding: 10px;
+    }
+    .edud{
+        padding-bottom: 50px;;
+    }
+/*EDUCATION*/
+/*SKILL*/
+.skill{
+    font-size: clamp(75px, 5vw, 96px);
+        color: #EDF2EB;
+        padding-top: 50px ;
+        padding-bottom: 50px;
+        font-weight: bolder;
+        text-align: end;
+        padding-right: 10%;
+}
+.sbg{
+    background-color:2E393C;
+}
+.skilld{
+    font-size: 15px;
+}
+.bgsl{
+    background-color: #EDF2EB;
+}
+.skillar{
+    padding: 20px 0 20px 3rem;
+    color:#1D2426;
+}
+.extrapad{
+    padding-top: 70px;
+}
+.extrapadb{
+    padding-bottom: 3rem;
+}
+.softwares{
+height:4rem;
+}
+/*SKILL*/
+/* PROJECTS*/
+iframe {
+    display: block;
+    width: 100%;
+    height: 80vh; /* Ensure the iframe takes up 80% of screen height */
+    border: none;
+}
+.pcolor{
+    color: #EDF2EB;
+}
+#button-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center; /* Centers items horizontally */
+}
+#extra-buttons {
+    display: block;
+    max-height: 0px; /* Initially collapsed */
+    opacity: 0;
+    overflow: hidden;
+    transition: max-height 0.4s ease-in-out, opacity 0.4s ease-in-out;
+}
+.show {
+    max-height: 1000px; /* Adjust based on content */
+    opacity: 1;
+}
+.moreh:hover{
+     transform: scale(1.05);
+     transition: transform 0.2s ease-in;
+}
+/* PROJECTS*/
+
+/*CV*/
+.cvb{
+   border: none; background-color: #14191a; padding: 10px; color: #EDF2EB; border-radius: 10px; 
+}
+.cvb:hover{
+border: none; 
+background-color:#4A6269;
+padding: 10px; 
+color:#EDF2EB; 
+ border-radius: 10px;
+ scale: 1.1;
+ transition: scale 0.2s ease-in;
+ }
+/*CV*/
+
+    @media (max-width: 767px) { 
+        
+        /* When sm navbar is active */
+        .navbar-nav {
+            justify-content: center;
+            align-items: center;
+            width: 100%;
+        }
+        /* When sm navbar is active */
+
+        /*INTRO*/
+        .bgcolour{
+            background-color: #1D2426;
+            }
+.mainh{
+    text-align: center;
+color:#EDF2EB ;
+}
+.mainh1{
+    text-align: center;
+    color: #EDF2EB;
+}
+/*INTRO*/
+
+/*SKILL*/
+.skill{
+    font-size: clamp(40px, 5vw, 64px);
+        color: #EDF2EB;
+        padding-top: 50px ;
+        padding-bottom: 50px;
+        font-weight: bolder;
+        text-align: center;
+        padding-right: 0;
+}
+.skillar{
+    padding: 20px 0 20px 0;
+    text-align: center;
+}
+/*SKILL*/
+.coc{
+    flex-direction: column;
+}
+    }
