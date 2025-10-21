@@ -4,34 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Siddharth Bharty</title>
-     <!-- SEO Meta Tags -->
-  <meta name="title" content="Siddharth Bharty | Designer & Artist">
-  <meta name="description" content="Explore the creative portfolio of Siddharth Bharty – a designer and artist with experience in fashion, UI/UX, 3D modeling, and haptic wearables. This is the official website of Sidty.">
-  <meta name="keywords" content="Siddharth Bharty, fashion design, UI/UX, 3D artist, haptic suit, creative designer, portfolio, sidty">
-  <meta name="author" content="Siddharth Bharty">
-  <meta name="language" content="English">
-
-  <!-- Open Graph / Facebook -->
-  <meta property="og:type" content="website">
-  <meta property="og:url" content="https://siddharthbharty.in/">
-  <meta property="og:title" content="Siddharth Bharty | Designer & Artist">
-  <meta property="og:description" content="Explore the creative portfolio of Siddharth Bharty – designer and artist. View my work in fashion, tech, and art.">
-  <meta property="og:image" content="https://siddharthbharty.in/img/Myphoto.png">
-
-  <!-- Twitter -->
-  <meta property="twitter:card" content="summary_large_image">
-  <meta property="twitter:url" content="https://siddharthbharty.in/">
-  <meta property="twitter:title" content="Siddharth Bharty | Designer & Artist">
-  <meta property="twitter:description" content="Discover the creative work of Siddharth Bharty – designer, artist, and innovator.">
-  <meta property="twitter:image" content="https://siddharthbharty.in/img/Myphoto.png">
-
-  <!-- Hidden keyword for search engine (not visible to users) -->
-  <span style="display:none;">sidty</span>
-  <!-- sidty: alternate keyword for SEO -->
-
-  <!-- Favicon -->
-  <link rel="icon" href="img/favicon.ico" type="image/x-icon">
-
+    
     <link rel="stylesheet" href="bootstrap.min.css">
     <link rel="stylesheet" href="style.css">
 </head>
@@ -51,7 +24,7 @@
 
    </nav> 
 
-<header class="container-fluid"> 
+<div class="container-fluid"> 
     <div class="row align-items-center introcolor "><div class="col-md-6 order-2 order-md-1 bgcolour">
         <H1 class="mainh">Siddharth Bharty </H1>
 <h2 class="mainh1">(Designer & Artist)</h2> </div> 
@@ -59,29 +32,74 @@
 <div class="col-md-6 order-1 order-md-2"> <img class="img-fluid" src="img\Myphoto.png" alt="">
 </div></div>
     
-</header>
-<div class="container-fluid edu">
-    <H3 class="edu0">Education</H3>
-    <div class="edu1"> <img src="img\Logo-National-Institute-of-Design 1.svg" alt=""> <p><span><b>National Insititute of Design</b></span> <br> Master of Design <br> 2024-present</p></div>
-    <div class="edu1"> <img src="img\Amity University -05 1.svg" alt=""> <p><span><b>Amity University</b> </span> <br> Bachelor of Design,Fashion <br> 2019-2023</p></div>
-    <div class="edu1"> <img src="img/pkk-logo-transparent 1.svg" alt=""> <p><span> <b>Pracheen Kala Kendra</b> </span> <br> Fine Art(4<sup>th</sup>  year)</p></div>
-    <div class="edu1 edud"> <img src="img\DAV_CMC_Logo.svg 1.svg" alt=""> <p><span> <b>D.A.V Public School,Kusunda, Dhanbad</b> </span> <br> 10<sup>th</sup> & 12<sup>th</sup> </p></div>
 </div>
-<div class="container-fluid"> 
+<div style="position: relative; width:100%;" class="container-fluid edu">
 
-    <div class="row align-items-center  " style="background-color:#2E393C  ;"><div class="col-md-6 order-1 order-md-1 sbg">
+  <!-- decorative/background layer (contained, won't overflow) -->
+  <div style="position: absolute; inset: 0; pointer-events: none; z-index: 0; overflow: hidden;">
+    <img
+      style="position: absolute; left: -6%; top: 20px; opacity: 0.10; transform: scale(0.5); filter: blur(2px); max-width: 55%; "
+      src="img/capweb.png"
+      alt="">
+    <img
+      style="position: absolute; right: 5%; top: 30%; opacity: 0.10; transform: scaleX(-1);scale(1); filter: blur(2px); max-width: 55%;"
+      src="img/capweb.png"
+      alt="">
+  </div>
+
+  <!-- content (not clipped) -->
+  <h3 class="edu0">Education</h3>
+
+  <div class="edu1">
+    <img src="img/Logo-National-Institute-of-Design 1.svg" alt="">
+    <p><span><b>National Institute of Design</b></span><br>Master of Design<br>2024-present</p>
+  </div>
+
+  <div class="edu1">
+    <img src="img/Amity University -05 1.svg" alt="">
+    <p><span><b>Amity University</b></span><br>Bachelor of Design, Fashion<br>2019-2023</p>
+  </div>
+
+  <div class="edu1">
+    <img src="img/pkk-logo-transparent 1.svg" alt="">
+    <p><span><b>Pracheen Kala Kendra</b></span><br>Fine Art (4<sup>th</sup> year)</p>
+  </div>
+
+  <div class="edu1 edud">
+    <img src="img/DAV_CMC_Logo.svg 1.svg" alt="">
+    <p><span><b>D.A.V Public School, Kusunda, Dhanbad</b></span><br>10<sup>th</sup> & 12<sup>th</sup></p>
+  </div>
+
+</div>
+<div style="position: relative; width:100%;"  class="container-fluid" >
+<div style="position: absolute; inset: 0; pointer-events: none; z-index: 0; overflow: hidden;" > 
+  <div style="position: absolute; left:-6%; opacity: 0.1; transform: scaleX(-1) scale(1); filter: blur(8px); filter: saturate(-10) ; max-width: 55%; ">
+  <img src="img/bulbweb.png" alt="" >
+</div>
+<div style="position: absolute; right:-6%; top:5%;opacity: 0.05; transform: scale(0.3); filter: blur(2px); max-width: 55%;">
+  <img src="img/bulbweb.png" alt="" >
+  </div>
+</div>
+ <div class="row align-items-center  " style="background-color:#2E393C  ;"><div class="col-md-6 order-1 order-md-1 sbg">
         <H3 class="skill">Skills</H3> </div> 
     <div class="col-md-6 order-2 order-md-2 bgsl"  >
         <Div class="skillar extrapad "><p> <b>Design thinking & Process</b> <br> <span class="skilld">Design Thinking ,Research Methodology ,Storytelling ,UI/UX Design</span></p></Div>
          <Div class="skillar"><p> <b>Apparel & Technical Designs</b> <br> <span class="skilld">Techpack Design,Pattern Drafting, Draping, Surface Design, Illustration</span></p></Div>
           <Div class="skillar"><p> <b>Visual & Creative Skills</b> <br> <span class="skilld">Graphic Design, 3D Modeling, Basic Animation,HTML,CSS</span></p></Div>
-           <Div class="skillar extrapadb"><p> <b>Software & Digital Tools</b> <br> <span class=" skilld "><img class="softwares" src="img\Softwares.png" alt=""></span></p></Div>
+           <Div class="skillar extrapadb"><p> <b>Software & Digital Tools</b> <br> <span class=" skilld "><img class="softwares" src="img\Softwares.svg" alt=""></span></p></Div>
     </div> </div> </div>
 
 <div style="height: 4px; background-color: #1D2426;"></div>
-    <div class="container-fluid"> 
-
-    <div class="row align-items-center  " style="background-color:#1D2426 ;"><div class="col-md-6 order-1 order-md-1 sbg">
+    <div  style="position: relative; width:100%;"   class="container-fluid"> 
+<div style="position: absolute; inset: 0; pointer-events: none; z-index: 0; overflow: hidden;" > 
+  <div style="position: absolute; left:-6%; opacity: 0.1; transform: scaleX(-1) scale(1); filter: blur(8px); filter: saturate(-10) ; max-width: 55%; ">
+  <img src="img\starbulb.png" alt="" >
+</div>
+<div style="position: absolute; right:-6%; top:5%;opacity: 0.1; transform: scale(0.3); filter: blur(2px); max-width: 55%;">
+  <img src="img\starbulb.png" alt="" >
+  </div>
+</div>
+      <div class="row align-items-center  " style="background-color:#1D2426 ;"><div class="col-md-6 order-1 order-md-1 sbg">
         <H3 class="skill">Experience</H3> </div> 
     <div class="col-md-6 order-2 order-md-2 bgsl"  >
         <Div class="skillar extrapad "><p> <img src="img\BAKSON IND.svg" alt=""> <br> <b>Bakson Ind (Jr.Designer)</b> <br> <span class="skilld">3D Fashion Designer, Research and Development</span> <br>------------</p></Div>
@@ -123,7 +141,7 @@
                 <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
             </div>
             <div class="modal-body">
-                <iframe src="https://drive.google.com/file/d/167uugqmoqzthk8mC1wFq1XnHTrS9CVmh/preview" width="100%" height="80vh"></iframe>
+                <iframe src="https://drive.google.com/file/d/10VuOy0ryho4fur0dop7XSkVGfq8l-IV2/preview" width="100%" height="80vh"></iframe>
             </div>
         </div>
     </div>
@@ -167,7 +185,7 @@
 
 
 <!-- Extra -->
-<div id="extra-buttons" style="display: none;">
+
     <!-- Project3 -->
 <div> 
  <div data-bs-toggle="modal" data-bs-target="#pdfModal3"  style="margin: 1.5% 5% 1% 5%; " >
@@ -441,7 +459,7 @@
     <div class="modal-dialog modal-lg">
         <div class="modal-content">
             <div class="modal-header">
-                <h5 class="modal-title">3D modeling , Poster design , Print design , Photo manipulation , Painting , Animation & Video editing</h5>
+                <h5 class="modal-title">3D modeling , Poster design , Print design , Photo manipulation , Painting & video editing</h5>
                 <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
             </div>
             <div class="modal-body">
@@ -455,9 +473,7 @@
 </div>
 <!-- Extra -->
 
-<button id="toggle-btn" class="btn btn-secondary moreh" style="background-color:#14191a; margin-bottom: 10px; width: 50%;">More Projects</button>
 
-</div>
 
 
 <div style="background-color:#1D2426;">
@@ -511,6 +527,7 @@
     animation-range: entry 0 cover 40%;">
       <p><b>1st Runner-Up in Craft Design Challenge</b><br>Organizer: Hand for Handmade</p>
       <p><b>1st Prize in District-Level Painting Competition</b><br>Organizer: IIT, Dhanbad</p>
+      <p><b> Finalist </b><br>Organizer: Only Natural </p>
     </div>
   </div>
 
