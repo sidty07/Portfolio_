@@ -36,16 +36,14 @@
 <div style="position: relative; width:100%;" class="container-fluid edu">
 
   <!-- decorative/background layer (contained, won't overflow) -->
-  <div style="position: absolute; inset: 0; pointer-events: none; z-index: 0; overflow: hidden;">
-    <img
-      style="position: absolute; left: -6%; top: 20px; opacity: 0.10; transform: scale(0.5); filter: blur(2px); max-width: 55%; "
-      src="img/capweb.png"
-      alt="">
-    <img
-      style="position: absolute; right: 5%; top: 30%; opacity: 0.10; transform: scaleX(-1);scale(1); filter: blur(2px); max-width: 55%;"
-      src="img/capweb.png"
-      alt="">
+ <div style="position: absolute; inset: 0; pointer-events: none; z-index: 0; overflow: hidden;" > 
+  <div style="position: absolute; left:-6%; opacity: 0.1; transform: scaleX(-1) scale(1); filter: blur(8px); filter: saturate(-10) ; max-width: 55%; ">
+  <img src="img\capweb.png" alt="" >
+</div>
+<div style="position: absolute; right:-6%; top:5%;opacity: 0.1; transform: scale(0.3); filter: blur(2px); max-width: 55%;">
+  <img src="img\capweb.png" alt="" >
   </div>
+</div>
 
   <!-- content (not clipped) -->
   <h3 class="edu0">Education</h3>
@@ -589,3 +587,4 @@ document.getElementById("toggle-btn").addEventListener("click", function() {
 </script>
 </body>
 </html>
+
