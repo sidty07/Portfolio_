@@ -120,27 +120,15 @@ nav{
     
 }
 .sidname {
-    position: relative;
-    min-height: 100vh;
-    overflow: hidden;
-}
-
-/* 🔥 BACKGROUND LAYER */
-.container-fluid{
-    padding: 0%;
-}
-
-.sidname {
-    
     width: 100%;
-    background: transparent; /* 🔥 IMPORTANT */
+    min-height: 100vh;
+    background: transparent;
     display: flex;
     align-items: center;
     justify-content: center;
     position: relative;
     overflow: hidden;
 }
-
 /* Name */
 .name {
     font-size: clamp(80px, 8vw, 500px);
