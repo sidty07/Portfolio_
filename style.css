@@ -4,9 +4,40 @@ body, html {
     padding: 0;
     margin: 0;
     width: 100%;
+    cursor: none;
 
 }
 
+
+/*cursor*/
+/* OUTER CIRCLE */
+.cursor {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 30px;
+    height: 30px;
+    border: 1.5px solid #fff;
+    border-radius: 50%;
+    pointer-events: none;
+    z-index: 9999;
+    mix-blend-mode: difference; /* 🔥 works on light + dark */
+}
+
+/* INNER DOT */
+.cursor-dot {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 6px;
+    height: 6px;
+    background: #ffffff;
+    border-radius: 50%;
+    pointer-events: none;
+    z-index: 9999;
+    mix-blend-mode: difference;
+}
+/*cursor*/
 @keyframes simple {
     0%{opacity: 0; scale: 0;}
     100%{opacity: 1; scale: 1;}
@@ -30,7 +61,7 @@ body, html {
 .home{
    
     text-decoration: none;
-    color:#4A6269;
+    color:#555555;
     font-size: 20px;
     
     
@@ -42,7 +73,7 @@ body, html {
      margin-left: 10%;
 }
 nav{
-    background-color:#14191a;
+    background-color: #000000;
     box-shadow: 0px 15px 26px rgba(0, 0, 0, 0.3);
     border-radius:0px 0px 20px 20px ;
 }
@@ -54,13 +85,13 @@ nav{
 
 .right-navtext{
     text-decoration: none;
-    color: #4A6269;
+    color:#555555;
 }
 .right-navtext:hover {
     color: white;}
 
 .navbar-toggler{
-        filter: invert(36%) sepia(30%) saturate(300%) hue-rotate(150deg);
+       filter: invert(33%) sepia(0%) saturate(0%) hue-rotate(0deg) brightness(95%) contrast(90%);
     margin-right: 10%;
     border: none;
     outline: none;
@@ -100,7 +131,7 @@ nav{
 }
 
 .sidname {
-    min-height: 100vh;
+    
     width: 100%;
     background: transparent; /* 🔥 IMPORTANT */
     display: flex;
@@ -241,7 +272,7 @@ iframe {
 
 /*CV*/
 .cvb{
-   border: none; background-color: #14191a; padding: 10px; color: #EDF2EB; border-radius: 10px; 
+   border: none; background-color: #000000; padding: 10px; color: #EDF2EB; border-radius: 10px; 
 }
 .cvb:hover{
 border: none; 
