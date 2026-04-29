@@ -4,7 +4,7 @@ body, html {
     padding: 0;
     margin: 0;
     width: 100%;
-   background-color:#EDF2EB
+
 }
 
 @keyframes simple {
@@ -88,38 +88,53 @@ nav{
     
     
 }
-.introcolor{
- background-color: #EDF2EB;
+.sidname {
+    position: relative;
+    min-height: 100vh;
+    overflow: hidden;
 }
-.mainh{
-    
-   font-size: clamp(50px, 5vw, 64px);
-    color: #1D2426;
-    text-align: end;
-    padding-top: 20px;
+
+/* 🔥 BACKGROUND LAYER */
+.container-fluid{
+    padding: 0%;
 }
-.mainh1{
-   font-size: clamp(30px, 3vw, 36px);
-    font-weight: 100;
-    color: #1D2426;
-text-align: end;
-padding-bottom: 20px;
-}
-.img-fluid {
+
+.sidname {
+    min-height: 100vh;
     width: 100%;
-    height: auto;
-    display: block;
-}
-.row, .col-md-6 {
-    margin: 0;
-    padding: 0;
+    background: transparent; /* 🔥 IMPORTANT */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    overflow: hidden;
 }
 
+/* Name */
+.name {
+    font-size: clamp(80px, 8vw, 500px);
+    color: #14191a;
+    position: absolute;
+    text-align: center;
+}
 
+/* Subtitle centered EXACTLY */
+.subtitle {
+    font-size: clamp(1.5rem, 3vw, 2.5rem);
+    color: #14191a;
+    opacity: 0;
+
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%); /* ✅ center properly */
+
+    will-change: transform, opacity;
+}
 /*INTRO*/
 /*EDUCATION*/
 .edu{
-    background-color: #090e0f;
+    background-color: #000000;
    
     }
     .edu0{
